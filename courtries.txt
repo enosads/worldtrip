@@ -1,0 +1,114 @@
+America do Norte:
+New York
+Miami
+Los Angeles
+Las Vegas
+Cancun
+Orlando
+Toronto
+Vancouver
+San Francisco
+Honolulu
+
+Europa:
+berlin
+Frankfurt
+London
+Paris
+Istambul
+Rome
+Prague
+amsterdam
+barcelona
+madrid
+Milan
+venice
+Dublin
+Florence
+vienna
+Athens
+Moskow
+Munich
+st petersburg
+brussels
+Budapeste
+lisbon
+heraklion
+Copenhagen
+Stockholm
+Nice
+Porto
+Rhodes
+
+
+Asia:
+Istambul
+Hong Kong
+BangKok
+Macau
+Singapore
+Dubai
+Kuala Lumpur
+Delhi
+Mumbai
+Agra
+Chennai
+Jaipur
+Bangalore
+Antalya
+Shenzhen
+Guangzhou
+Shanghai
+Beijing
+Zhuhai
+Guilin
+Phuket
+Tokyo
+Pattaya
+Taipei
+Mecca
+Medina
+Riyadh
+Dammam
+Seoul
+kyoto
+Chiba
+Jeju
+Fukuoka
+Osaka
+Ho Chi Minh City
+Hanoi
+halong
+Da Nang
+Denpasar
+Jakarta
+Krakow
+Warsaw
+Batam
+johor bahru
+pennang island
+Mugla
+Jerusalem
+Tel Aviv
+Chiang Mai
+kolkata
+Cebu
+Abu Dhabi
+Krabi
+
+
+Africa:
+Cairo
+Hurghada
+Joahnnesburg
+Marrakech
+
+América do Sul:
+Buenos Aires
+Rio de Janeiro
+Lima
+
+Oceania:
+Sydney
+Melbourne
+Auckland
