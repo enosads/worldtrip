@@ -1,4 +1,4 @@
-import {Flex, Heading} from "@chakra-ui/react";
+import {Flex, Heading, useBreakpointValue} from "@chakra-ui/react";
 
 interface ContinentBannerProps {
     image: string;
@@ -6,6 +6,7 @@ interface ContinentBannerProps {
 }
 
 export function ContinentBanner({image, name}: ContinentBannerProps) {
+
     return (
         <Flex
             w="100%"

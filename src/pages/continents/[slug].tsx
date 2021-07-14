@@ -1,4 +1,4 @@
-import {Box, Flex, Heading, Text, Center} from "@chakra-ui/react";
+import {Box, Flex, Heading, Text, Center, useBreakpointValue} from "@chakra-ui/react";
 import {Header} from "../../components/Header";
 import {GetStaticPaths, GetStaticProps} from "next";
 import {fauna} from "../../services/faunadb";
@@ -31,11 +31,17 @@ interface ContinentProps {
 }
 
 export default function Continent({continent}: ContinentProps) {
+    const isMobile = useBreakpointValue({
+        base: false,
+        sm: true
+    })
     return (
-        <Flex direction="column">
+        <Flex direction="column"
+              w={isMobile ? "100%" : '110%'}
+        >
             <Header/>
             <ContinentBanner image={continent.image} name={continent.name}/>
-            <Flex direction="column" maxW="1176px" mx="auto" px='1rem' my={[5, 10,10,10, 20]}>
+            <Flex direction="column" maxW="1176px" mx="auto" px='1rem' my={[5, 10, 10, 10, 20]}>
                 <ContinentContent
                     cities100Count={continent.cities100.length}
                     countryAmount={continent.countryAmount}
