@@ -24,8 +24,7 @@ export function ContinentContent(
     return (
         <Flex
             gridGap='4.375rem'
-            my={['1rem', '1rem', '3rem', '4rem']}
-            padding='1rem'
+            my={['0.5rem', '0.5rem', '1.5rem', '2rem']}
             direction={isLg ? 'row' : 'column'}
         >
             <Text

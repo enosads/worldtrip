@@ -5,16 +5,29 @@ import {fauna} from "../../services/faunadb";
 import {query as q} from "faunadb";
 import {ContinentBanner} from "../../components/ContinentBanner";
 import {ContinentContent} from "../../components/ContinentContent";
+import {Cities100List} from "../../components/Cities100List";
+
+type City = {
+    id: string,
+    name: string,
+    image: string,
+    country: {
+        name: string,
+        image: string
+    }
+}
+
+type ContinentType = {
+    image: string,
+    name: string,
+    longDescription: string,
+    countryAmount: number,
+    population: number,
+    cities100: City[]
+}
 
 interface ContinentProps {
-    continent: {
-        image: string,
-        name: string,
-        longDescription: string,
-        countryAmount: number,
-        population: number,
-        cities100: []
-    }
+    continent: ContinentType
 }
 
 export default function Continent({continent}: ContinentProps) {
@@ -22,15 +35,15 @@ export default function Continent({continent}: ContinentProps) {
         <Flex direction="column">
             <Header/>
             <ContinentBanner image={continent.image} name={continent.name}/>
-            <Flex direction="column" maxW="1160px" mx="auto" mb="10" px="1rem">
+            <Flex direction="column" maxW="1176px" mx="auto" px='1rem' my={[5, 10,10,10, 20]}>
                 <ContinentContent
                     cities100Count={continent.cities100.length}
                     countryAmount={continent.countryAmount}
                     longDescription={continent.longDescription}
                     population={continent.population}
                 />
+                <Cities100List cities={continent.cities100}/>
             </Flex>
-            {JSON.stringify(continent.cities100)}
         </Flex>
     );
 }
