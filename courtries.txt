@@ -1,18 +1,18 @@
 America do Norte:
-New York
-Miami
-Los Angeles
-Las Vegas
-Cancun
-Orlando
-Toronto
-Vancouver
-San Francisco
-Honolulu
+New York x
+Miami x
+Los Angeles x
+Las Vegas x
+Cancun x
+Orlando x
+Toronto x
+Vancouver x
+San Francisco x
+Honolulu x
 
 Europa:
-berlin
-Frankfurt
+berlin x
+Frankfurt x
 London
 Paris
 Istambul
